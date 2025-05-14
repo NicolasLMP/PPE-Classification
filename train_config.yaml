@@ -1,0 +1,16 @@
+
+# Train configuration
+task: classify
+mode: train
+model: yolov8n-cls.pt
+data: dataset.yaml
+epochs: 20
+imgsz: 224
+batch: 16
+device: cpu
+workers: 4
+name: fish_classifier
+project: runs
+exist_ok: True
+patience: 10
+save: True
