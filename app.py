@@ -1,13 +1,9 @@
 import cv2
 import numpy as np
-import tkinter as tk
-from tkinter import filedialog, ttk, messagebox
-import threading
 import time
 import os
-from PIL import Image, ImageTk
+from PIL import Image
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from sklearn.metrics import confusion_matrix, classification_report
 import seaborn as sns
 import pandas as pd
