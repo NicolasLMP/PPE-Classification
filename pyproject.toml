@@ -1,0 +1,39 @@
+[project]
+name = "ppe-classification"
+version = "0.1.0"
+description = "Système de classification et comptage de poissons utilisant YOLOv8 et computer vision"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+authors = [
+    {name = "Nicolas Lambropoulos - Groupe #PPE24-T-297"}
+]
+license = {text = "MIT"}
+keywords = ["computer-vision", "yolo", "fish-classification", "deep-learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "matplotlib>=3.8.0",
+    "numpy>=2.0.0",
+    "opencv-python>=4.10.0",
+    "pandas>=2.2.0",
+    "pillow>=10.3.0",
+    "pyyaml>=6.0.0",
+    "scikit-learn>=1.4.0",
+    "seaborn>=0.13.0",
+    "supervision>=0.20.0",
+    "tk>=0.1.0",
+    "torch>=2.3.0",
+    "torchvision>=0.18.0",
+    "tqdm>=4.66.0",
+    "ultralytics>=8.2.0",
+]
+
+[project.scripts]
+ppe-classification = "run_app:main"
