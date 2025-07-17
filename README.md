@@ -1,12 +1,12 @@
-# 🐠 PPE Classification - Système de Classification et Comptage de Poissons
+# PPE Classification - Système de Classification et Comptage de Poissons
 
-Ce projet propose une solution complète pour la détection, la classification et le comptage automatique de poissons dans des vidéos sous-marines, à l'aide de modèles d'intelligence artificielle (YOLOv8 pour la détection, ResNet18 pour la classification) et d'une interface graphique conviviale.
+Ce projet propose une solution complète pour la détection, la classification et le comptage automatique de poissons dans des vidéos sous-marines, à l'aide de modèles d'intelligence artificielle (YOLOv8 pour la détection, ResNet18 pour la classification).
 
-## 🚀 Fonctionnalités principales
+## Fonctionnalités principales
 
-- **🔍 Détection et classification** de poissons parmi 22 espèces méditerranéennes
-- **📊 Comptage automatique** et suivi des individus pour éviter le double comptage
-- **💻 Interface graphique** intuitive permettant :
+- **Détection et classification** de poissons parmi 22 espèces méditerranéennes
+- **Comptage automatique** et suivi des individus pour éviter le double comptage
+- **Interface graphique** intuitive permettant :
   - Lancement/arrêt de l'analyse vidéo (webcam ou fichier)
   - Visualisation en temps réel des détections et classifications
   - Affichage du comptage par espèce
@@ -14,7 +14,7 @@ Ce projet propose une solution complète pour la détection, la classification e
   - Export des résultats au format CSV
   - Génération de rapports graphiques
 
-## 🐟 Espèces supportées
+## Espèces supportées
 
 | Espèce | Nom scientifique | Famille |
 |--------|------------------|---------|
@@ -41,7 +41,7 @@ Ce projet propose une solution complète pour la détection, la classification e
 | Rouget | Mullus surmuletus | Mullidae |
 | Sole commune | Solea solea | Soleidae |
 
-## 🛠️ Installation
+## Installation
 
 ### Prérequis
 
@@ -61,11 +61,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 #### Windows
 ```powershell
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-#### Avec pip (alternative)
-```bash
-pip install uv
 ```
 
 ### Installation du projet
@@ -92,7 +87,7 @@ pip install uv
    ```
    Vous devriez voir `Python 3.12.x`
 
-## 🎯 Utilisation
+## Utilisation
 
 ### Lancement de l'application
 
@@ -127,7 +122,7 @@ Les résultats sont automatiquement sauvegardés dans :
 - `data/fish_counts.csv` : Comptage par espèce avec timestamps
 - `assets/` : Graphiques et visualisations générés
 
-## 🏗️ Architecture du projet
+## Architecture du projet
 
 ```
 PPE-Classification/
@@ -164,7 +159,7 @@ PPE-Classification/
 └── README.md                          # Ce fichier
 ```
 
-## 🔧 Développement
+## Développement
 
 ### Commandes utiles
 
@@ -188,11 +183,11 @@ uv run --reload run_app.py
 - **Changer les seuils** : Ajustez les paramètres dans `src/ppe_classification/models/fish_classifier.py`
 - **Modifier l'interface** : Éditez `src/ppe_classification/ui/app.py`
 
-## 🎥 Démonstration
+## Démonstration
 
 Une démonstration vidéo du système est disponible ici : [Lien Google Drive](https://drive.google.com/file/d/1ctbgBSiCJYhsyPaWc5_azhEsEapO8-NO/view?usp=sharing)
 
-## 🐛 Résolution des problèmes
+## Résolution des problèmes
 
 ### Problèmes courants
 
@@ -222,38 +217,22 @@ Une démonstration vidéo du système est disponible ici : [Lien Google Drive](h
 ### Support
 
 Pour signaler un bug ou demander de l'aide :
-1. Vérifiez les [issues existantes](lien-vers-issues)
-2. Créez une nouvelle issue avec :
+
+1. Créez une nouvelle issue avec :
    - Description détaillée du problème
    - Version de Python (`python --version`)
    - Système d'exploitation
    - Logs d'erreur complets
 
-## 📈 Performance
-
-- **Temps de traitement** : ~30-60 FPS selon la configuration
-- **Précision** : ~85-95% selon l'espèce et les conditions
-- **Mémoire** : ~2-4 GB RAM selon la résolution vidéo
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Forkez le projet
-2. Créez une branche pour votre fonctionnalité
-3. Committez vos changements
-4. Poussez vers la branche
-5. Ouvrez une Pull Request
-
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 👥 Auteurs
+## Auteurs
 
-Projet réalisé par le **Groupe #PPE24-T-297**
+Projet réalisé par **Nicolas Lambropoulos** dans le cadre d'un projet scolaire (PPE) à l'ECE paris.
 
-## 🙏 Remerciements
+##  Remerciements
 
 - **YOLOv8** par Ultralytics pour la détection d'objets
 - **PyTorch** pour le framework de deep learning
@@ -261,5 +240,3 @@ Projet réalisé par le **Groupe #PPE24-T-297**
 - **Supervision** pour les utilitaires de vision par ordinateur
 
 ---
-
-*Développé avec ❤️ pour la recherche marine et la conservation des écosystèmes aquatiques*

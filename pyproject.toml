@@ -5,7 +5,7 @@ description = "Système de classification et comptage de poissons utilisant YOLO
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 authors = [
-    {name = "Groupe #PPE24-T-297"}
+    {name = "Nicolas Lambropoulos - Groupe #PPE24-T-297"}
 ]
 license = {text = "MIT"}
 keywords = ["computer-vision", "yolo", "fish-classification", "deep-learning"]
