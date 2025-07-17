@@ -1,0 +1,8 @@
+
+# Dataset configuration
+path: C:\Users\nicol\Downloads\PPE-Classification\dataset  # chemin absolu vers le dataset
+train: train  # dossier d'entraînement relatif au path
+val: val  # dossier de validation relatif au path
+nc: 22  # nombre de classes
+names: ['Anthias', 'Atherine', 'Bar européen', 'Bogue', 'Carangue', 'Daurade Royale', 'Daurade rose', 'Eperlan', 'Girelle', 'Gobie', 'Grande raie pastenague', 'Grande vive', 'Grondin', 'Maquereau', 'Merou', 'Mostelle', 'Mulet cabot', 'Muraine', 'Orphie', 'Poisson scorpion', 'Rouget', 'Sole commune']  # noms des classes
+            
